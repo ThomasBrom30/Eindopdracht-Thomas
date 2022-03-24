@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: aliceblue;
+}
+
+h1,h2,h3,h4,p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;;
+}
+/*///////////////navbar section*/
+.navbar ul {
+    display: flex;
+    flex-direction:row;
+    gap: 60px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+/*//////////// input section*/
+
+.outside-input-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url("/assets/foto.png");
+    background-color: #cccccc;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    border-radius: 45px;
+}
+
+.inside-input-wrapper{
+    background: bisque;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 45px;
+    color: gray;
+    width: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h3,button,input{
+    background:bisque ;
+}
+
+button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    background: bisque;
+    font-weight: bold;
+}
+
+/*//////// recipe card section*/
+
+.outside-recipe-card-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.inside-recipe-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-image: url("/assets/foto.png");
+    background-color: #cccccc;
+    border-radius: 45px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    width: 95%;
+    font-size: larger;
+}
+
+#first-recipe-card{
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    align-items:center;
+    background: bisque;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 45px;
+    color: gray;
+    width: 360px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    font-weight: bold;
+    gap: 30px;
+
+}
+
+#first-recipe-card-image{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+#second-recipe-card{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    background: bisque;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 45px;
+    color: gray;
+    width: 360px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    font-weight: bold;
+    gap: 30px;
+}
+
+#second-recipe-card-image{
+    border-radius: 45px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    margin-top: 20px;
+}
+
+#third-recipe-card{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    background: bisque;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 45px;
+    color: gray;
+    width: 360px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    font-weight: bold;
+    gap: 30px;
+}
+
+#third-recipe-card-image{
+    border-radius: 45px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    margin-top: 20px;
+}
+
+.recipe-card-text{
+    background: bisque;
+}
+
+
+
+/*/////// bottom banner section*/
+
+#slogan-bottom-banner{
+    display:flex ;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    background: aliceblue;
+    color: tomato;
+    font-style: italic;
+}
+
+.bottom-banner-foto-wrapper{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bottom-banner-foto-holder{
+
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    background-color: aliceblue;
+    background-image: url("/assets/woodtwo.jpg");
+}
+
+#bottom-banner-foto{
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    border-radius: 45px;
+    margin-bottom: 40px;
+    width: 300px;
+}
