@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesforrandom.css">
     <title>Title</title>
 </head>
 <body>
 
 <nav class="navbar">
     <ul>
-        <li><a href="/src/index.html">Recipe generator</a></li>
+        <li><a href="/src/index.html">What´s in my fridge</a></li>
         <li><a href="/src/moodCalculator.html">Mood calculator</a></li>
-        <li><a href="/src/what´sinmyfridge.html">What´s in my fridge</a></li>
+        <li><a href="/src/randomRecipeGenerator.html">Random recipe calculator</a></li>
     </ul>
 </nav>
 
 <div class="outside-input-wrapper">
+
+
     <div class="inside-input-wrapper">
-        <h3>Recipe Generator2:</h3>
+        <h3>Random recipe Generator:</h3>
 
         <form id ="onsubmit-form">
-            <label for="input-field">
-                <input type="text" id="input-field">
-                <button id="search-data-button">Search</button>
-            </label>
+            <button id="search-data-button">Search</button>
         </form>
     </div>
 </div>
@@ -34,11 +34,11 @@
 <div class="outside-recipe-card-wrapper">
     <div class="inside-recipe-card-wrapper">
 
-        <div id="first-recipe-card">Awaiting...</div>
+
         <br>
-        <div id="second-recipe-card">recipe title...</div>
+        <div id="second-recipe-card-random">are you ready</div>
         <br>
-        <div id="third-recipe-card">Suggestion...</div>
+
 
     </div>
 </div>
@@ -65,7 +65,7 @@
 
 
 
-    <script src="main.js" type="module"></script>
+    <script src="randomrecipegenerator.js" type="module"></script>
 
 </body>
 </html>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: aliceblue;
+}
+
+h1,h2,h3,h4,p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+#random-recipe-image{
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    border-radius: 45px;
+}
+
+#random-recipe-summary{
+    font-size: medium;
+    font-style: italic;
+    background: bisque;
+    max-width: 300px;
+
+}
+
+#random-recipe-instructions-guide{
+    background: bisque;
+    max-width: 300px;
+
+}
+
+#second-recipe-card-random{
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    align-items:center;
+    background: bisque;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 45px;
+    color: gray;
+    width: 460px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    font-weight: bold;
+    gap: 30px;
+}
