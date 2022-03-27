@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: aliceblue;
+}
+
+h1,h2,h3,h4,p {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;;
+    background: bisque;
+}
+
+
+.inside-input-wrapper-two,.inside-input-wrapperthree{
+    background: bisque;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 45px;
+    color: gray;
+    width: 350px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.40);
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#input-explanation-text-mood {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    width: 250px;
+    color: tomato;
+    margin-right: 60px;
+    font-size: larger;
+}
+
+#input-explanation-text-capitals{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    width: 200px;
+    color: tomato;
+    margin-right: 140px;
+    font-size: larger;
+    font-style: italic;
+
+}
+
+.recipe-card-choices{
+    color: slategrey;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
