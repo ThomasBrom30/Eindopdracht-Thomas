@@ -1,8 +1,12 @@
 import axios from "axios";
 
-
+////get element by id group
 const secondRecipeCard = document.getElementById("second-recipe-card-random");
 const form = document.getElementById("onsubmit-form");
+
+///main function used to generate random recipe
+
+
 async function fetchRandomRecipe( ){
 
     try {
@@ -26,7 +30,7 @@ async function fetchRandomRecipe( ){
 }
 
 
-
+///////// event listener linked to button
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -34,7 +38,7 @@ form.addEventListener("submit", (e) => {
     fetchRandomRecipe();
 })
 
-
+//////////create image & title with inner html
 
 function createRecipeList (recipesArray){
 

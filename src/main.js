@@ -9,7 +9,7 @@ const firstRecipeCard = document.getElementById("first-recipe-card");
 const form = document.getElementById("onsubmit-form");
 
 
-/////constants used in functions
+
 
 
 ///main function used to extract recipes array
@@ -51,7 +51,7 @@ form.addEventListener("submit", (e) => {
 
 //////////create images & titles with inner html
 
-function createRecipeList (recipesArray){
+export function createRecipeList (recipesArray){
 console.log(recipesArray)
 
 

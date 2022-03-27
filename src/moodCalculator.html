@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="moodcalculator.css">
+    <title>Mood-search</title>
 </head>
 <body>
 
@@ -15,17 +16,26 @@
     </ul>
 </nav>
 
+
 <div class="outside-input-wrapper">
+    <p id="input-explanation-text-mood">Fill in the search bar with one mood from each bubble,to determine your perfect recipe.</p>
     <div class="inside-input-wrapper">
-        <h3>Mood calculator:</h3>
+        <h3>Mood based search:</h3>
 
         <form id ="onsubmit-form">
             <label for="input-field">
-                <input type="text" id="input-field">
+                <input type="text" id="input-field" placeholder="romantic,active,happy">
                 <button id="search-data-button">Search</button>
+
             </label>
         </form>
+
     </div>
+
+    <p id=input-explanation-text-capitals> An example would be: romantic,active,happy ( lower case )
+
+    </p>
+
 </div>
 
 <br>
@@ -34,27 +44,28 @@
 <div class="outside-recipe-card-wrapper">
     <div class="inside-recipe-card-wrapper">
 
-        <div id="first-recipe-card">Awaiting...</div>
+        <div id="first-recipe-card"><p>Mood selection 1:</p><p class="recipe-card-choices">Romantic or Party:</p></div>
         <br>
-        <div id="second-recipe-card">recipe title...</div>
+        <div id="second-recipe-card"><p>Mood selection 2:</p><p class="recipe-card-choices">Lazy or active:</p></div>
         <br>
-        <div id="third-recipe-card">Suggestion...</div>
+        <div id="third-recipe-card"><p>Mood selection 3:</p><p class="recipe-card-choices">Happy or sad:</p></div>
 
     </div>
 </div>
 
 <br>
 <br>
+
 <br>
 <br>
 <br>
 
 <div class ="bottom-banner-foto-wrapper">
 
-    <h4 id="slogan-bottom-banner">Looks like meat is back on the menu boys.
+    <h4 id="slogan-bottom-banner">Po-Ta-Toes, boil em, mash em, stick em in a stew.
         <br>
         <br>
-        -Ugluk, uruk-hai scout leader.
+        -Samwise Gamgee, Hobbit of the shire.
     </h4>
     <br>
     <br>
@@ -65,7 +76,11 @@
 
 
 
-    <script src="main.js" type="module"></script>
+
+
+
+
+    <script src="moodcalculator.js" type="module"></script>
 
 </body>
 
